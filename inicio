@@ -1,0 +1,7 @@
+/* introdução a linguagem swift apple 13/02/2016 */
+
+let moeda = "R$"
+var salario = 1_200
+var nomeFuncionario = "Emerson"
+
+"O funcionario \(nomeFuncionario) é \(salario)"
