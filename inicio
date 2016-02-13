@@ -12,4 +12,9 @@ var nomeFuncionario = "Emerson"
 /* outra forma de concatenar */
 "o funcionario" + nomeFuncionario + "é" + salario 
 
+/* o codigo abaixo é feito uma validação e impresso o valor na tela, se variavel genero for igual a 0 sera impresso male se for
+qualquer outro numero imprimi female.*/
+var genero = 0
+genero == 0?print("male"):print(female)
+
 
