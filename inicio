@@ -1,7 +1,15 @@
 /* introdução a linguagem swift apple 13/02/2016 */
+/* site utilizado para testar os codigos 
+ttps://swiftlang.ng.bluemix.net/?cm_mmc=developerWorks-_-dWdevcenter-_-swift-_-lp&cm_mc_uid=85470627935814553178667&cm_mc_sid_50200000=1455317866#/repl */
 
-let moeda = "R$"
-var salario = 1_200
+let moeda = "R$"                                  // let é a forma de declara uma constante,sendo que nao pode ser mudado.
+var salario = 1_200                               
 var nomeFuncionario = "Emerson"
 
-"O funcionario \(nomeFuncionario) é \(salario)"
+"O funcionario \(nomeFuncionario) é \(salario)"   /* desta forma esta sendo concatenado os valores em uma frase sendo que \() 
+é a forma de concatenação.*/
+
+/* outra forma de concatenar */
+"o funcionario" + nomeFuncionario + "é" + salario 
+
+
